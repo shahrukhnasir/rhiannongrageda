@@ -1,0 +1,103 @@
+/* product-detail Css  */
+.product-detail-sec .quanity-wrap .quantity-input {
+	color: #3d4950;
+	outline: none;
+}
+.dark-mode .product-detail-sec .quanity-wrap .quantity-input {
+	color: var(--body-color);
+}
+.product-detail-sec .product-weight-wrapper .weight-value {
+	color: #6a7379;
+}
+.dark-mode .product-detail-sec .product-weight-wrapper .quanity-wrap {
+	background-color: var(--bg-color-1);
+}
+.dark-mode .product-detail-sec .product-weight-wrapper .weight-value {
+	color: var(--body-color) !important;
+}
+.product-detail-sec .product-weight-wrapper .quanity-wrap {
+	transition: 0s;
+	border: 1px solid transparent;
+}
+.product-detail-sec
+	.product-weight-wrapper
+	.weight-label
+	input:checked
+	+ .quanity-wrap {
+	border-color: var(--secondary-color);
+}
+.product-detail-sec
+	.product-weight-wrapper
+	.weight-label
+	input:checked
+	+ .quanity-wrap
+	.weight-value {
+	color: var(--secondary-color);
+}
+.product-detail-sec .product-check-wrapper .product-check-label {
+	color: #838a7f;
+}
+
+/* product-tabs Css  */
+.product-detail-sec .product-detail-tabs .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	background-color: var(--bg-color-4);
+	color: var(--secondary-color);
+	font-family: var(--primary-semibold-font);
+	border: 1px solid var(--secondary-color);
+	border-radius: 0;
+}
+.dark-mode .product-detail-sec .product-detail-tabs .nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+	background-color: var(--border-color-1);
+	color: var(--secondary-color-dark);
+}
+.product-detail-sec .product-detail-tabs .nav-link {
+	color: #99a1a6;
+	font-family: var(--primary-medium-font);
+	padding: 0.8rem 2rem;
+}
+.product-detail-sec .progress-box .progress {
+	height: 12.5px;
+	background: #e2e4e5;
+	border-radius: 2px;
+}
+.product-detail-sec .progress-box .progress-bar {
+	background: #ffc107;
+}
+.product-detail-sec .reviews-img {
+	width: 130px;
+}
+.product-detail-sec .reviews-detail-wrapper {
+	width: calc(100% - 130px);
+}
+.product-detail-sec .reviews-img img.img-fluid {
+	width: 112px;
+	height: 112px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+/* Tablet Responsive  */
+@media (max-width: 991px) {
+}
+/* Tablet Responsive  */
+
+/* Mobile Responsive  */
+@media (max-width: 575px) {
+	.product-detail-sec .reviews-img img.img-fluid {
+		width: 70px;
+		height: 70px;
+	}
+	.product-detail-sec .reviews-img {
+		width: 70px;
+	}
+	.product-detail-sec .reviews-detail-wrapper {
+		width: calc(100% - 70px);
+	}
+	.product-detail-sec .progress-box .progress {
+		flex: 0 0 85% !important;
+	}
+}
+/* Mobile Responsive  */
+
+/* product-detail Css  */

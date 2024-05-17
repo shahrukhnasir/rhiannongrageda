@@ -1,0 +1,35 @@
+/* Variable Css Start Here */
+/* Font cdn starts here */
+@font-face {
+  font-family: "Gruppo";
+  src: url("../fonts/Gruppo/Gruppo-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url("../fonts/Montserrat/Montserrat-Medium.ttf");
+}
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../fonts/Montserrat/Montserrat-Black.ttf");
+}
+
+/* Font cdn ends here */
+
+:root {
+  /* Typography starts here */
+  --primary-regular-font: "Montserrat-Regular";
+  --primary-medium-font: "Montserrat-Medium";
+  --primary-bold-font: "Montserrat-Bold";
+  --primary-black-font: "Montserrat-Black";
+  --Gruppo: "Gruppo";
+  /* Typography ends here */
+}

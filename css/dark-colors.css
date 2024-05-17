@@ -1,0 +1,84 @@
+:root {
+	--body-color: #ffffff;
+	--body-background: #171b16;
+	--dark-color: #fff;
+	--secondary-color: #ffffff;
+	--secondary-color-bg: #344f28;
+	--secondary-color-dark: #344f28;
+	--border-color: #d2d2d2;
+	--bg-color-1: #283226;
+	--bg-color-2: #eae6e2;
+	--border-color-1: #f1f1f1;
+	--dark-color-1: #000000;
+	--color-6: #ffc107;
+	--light-text: #6a7379;
+}
+.body-color {
+	color: var(--body-color);
+}
+.body-color-dark {
+	color: var(--body-color);
+}
+.dark-extra-color {
+	background-color: var(--secondary-color);
+}
+.dark-color-dark {
+	color: var(--dark-color-1) !important;
+}
+.dark-color {
+	color: var(--dark-color);
+}
+.secondary-color {
+	color: var(--body-color);
+}
+.secondary-color-dark {
+	color: var(--secondary-color-dark);
+}
+.border-color {
+	color: var(--border-color);
+}
+
+.color-5 {
+	color: var(--body-color);
+}
+
+.color-6 {
+	color: var(--color-6);
+}
+.light-text {
+	color: var(--light-text);
+}
+.body-bg {
+	background-color: var(--body-background);
+}
+.body-bg-dark {
+	background-color: var(--body-background) !important;
+}
+.dark-bg {
+	background-color: var(--dark-color);
+}
+.secondary-bg {
+	background-color: var(--secondary-color-bg);
+}
+.secondary-bg-dark {
+	background-color: var(--secondary-color-bg) !important;
+}
+.border-bg {
+	background-color: var(--border-color);
+}
+
+.bg-color-1 {
+	background-color: var(--bg-color-1);
+}
+.bg-color-1-dark {
+	background-color: var(--bg-color-1) !important;
+}
+.bg-color-dark {
+	background-color: var(--bg-color-1) !important;
+}
+.bg-color-2 {
+	background-color: var(--bg-color-2);
+}
+.table-color {
+	color: var(--body-color);
+}

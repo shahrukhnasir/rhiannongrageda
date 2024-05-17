@@ -1,0 +1,401 @@
+@media (max-width: 1366px) {
+  header .container {
+    max-width: 1200px;
+  }
+
+  header a {
+    font-size: 13px !important;
+  }
+}
+
+@media (max-width: 1299px) {
+  .main-banner-heading {
+    background-size: contain;
+  }
+
+  .main-banner-heading h1,
+  .main-banner-heading h2,
+  .exp-div {
+    font-size: 75px;
+  }
+
+  .main-banner-heading h2 {
+    font-size: 85px;
+  }
+
+  .get-the-app-div {
+    margin: 10px 0 20px;
+  }
+
+  .radiant-tans-img img,
+  .tailored-tanning-img img {
+    right: 0px;
+    width: 50%;
+  }
+
+  /* Testimonials sec  */
+  .client-img img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+  }
+
+  /* Testimonials sec  */
+}
+
+@media (max-width: 991px) {
+  /* Header  */
+
+  .mobile__nav-wrapp {
+    display: block;
+  }
+
+  .desktop__nav-wrapp {
+    display: none;
+  }
+
+  header .container .row {
+    justify-content: space-between;
+  }
+
+  header .container .row .col-md-2 {
+    max-width: 35% !important;
+    width: 100% !important;
+  }
+
+  header .container .row .mobile__nav-wrapp {
+    max-width: 65% !important;
+    width: 100% !important;
+  }
+
+  /* Header  */
+  /* Banner  */
+  .main-banner-heading h1,
+  .main-banner-heading h2,
+  .exp-div {
+    font-size: 55px;
+  }
+
+  .main-banner-heading h2 {
+    font-size: 65px;
+  }
+
+  .get-the-app-div {
+    display: none;
+  }
+
+  .exp-div {
+    margin-top: -20px;
+  }
+
+  .video-div {
+    position: relative;
+    text-align: center;
+  }
+
+  .video-play-icon {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    top: 50%;
+  }
+
+  video.video-div {
+    position: unset;
+  }
+
+  .main-banner-div {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  /* Banner  */
+  /* packages  */
+  .package__tag {
+    right: 0px;
+    max-width: 65px;
+    height: 40px;
+    line-height: 40px;
+  }
+
+  /* packages  */
+  /* 3rd sec  */
+  .light-bg-div-content-text h2 {
+    width: 100%;
+    font-size: 40px;
+  }
+
+  .light-bg-div-content-img {
+    display: none;
+  }
+
+  .light-bg-div-content-text {
+    text-align: center;
+  }
+
+  .light-bg-div-content-text button {
+    margin: auto;
+  }
+
+  /* 3rd sec  */
+
+  /* 5th sec  */
+  .spray-tanning-div,
+  .spray-tanning-div2,
+  .spray-tanning-div3 {
+    padding: 20px;
+  }
+
+  /* 5th sec  */
+
+  /* 6th Sec  */
+  .logo-bg:nth-of-type(1) {
+    margin-top: 70px !important;
+  }
+
+  /* 6th Sec  */
+
+  /* auth pages  */
+  .contact-form-wrapper {
+    max-width: 90%;
+    margin: auto;
+    padding: 10px 0;
+  }
+
+  .signup-video-wrapper video {
+    width: 100% !important;
+    height: auto !important;
+  }
+
+  /* auth pages  */
+
+  /* profile  */
+  .sidebar__list li {
+    padding: 12px !important;
+  }
+
+  /* profile  */
+
+  /* careers  */
+  .careers__wrapp .tab-pane {
+    overflow: auto !important;
+  }
+
+  /* careers  */
+
+  /* selection  */
+  span.step-text.level-7 {
+    font-size: 14px !important;
+  }
+
+  .selected__wrapp .package__title {
+    font-size: 10px !important;
+    margin: 0 auto 10px;
+  }
+
+  .selected__wrapp .package__price {
+    font-size: 14px;
+  }
+
+  .selected__wrapp .package__duration {
+    font-size: 8px;
+  }
+
+  .selected-image {
+    width: 70px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .step {
+    flex: unset;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .step-container {
+    flex-wrap: wrap;
+  }
+
+  .step:last-child {
+    text-align: left;
+  }
+
+  .selection__tool img {
+    margin-left: 0;
+  }
+
+  .order__details {
+    padding: 24px 10px !important;
+  }
+
+  /* selection  */
+}
+
+@media (max-width: 767px) {
+  video.video-div {
+    width: 90%;
+    margin-top: 20px;
+  }
+
+  .social__links {
+    display: none;
+  }
+
+  .sun-kissed-sec img {
+    display: none;
+  }
+
+  .section {
+    padding: 30px 0px 30px;
+  }
+
+  .titles__wrapp {
+    max-width: 670px;
+    margin: 20px auto 30px;
+  }
+
+  /* packages  */
+  .package__box {
+    max-width: 80% !important;
+    margin: 0 auto !important;
+  }
+
+  .package__box {
+    max-width: 80% !important;
+    margin: 0 auto !important;
+ }
+
+  /* packages  */
+
+  /* review  */
+  .reviews-sldier-contant {
+    flex-direction: column;
+  }
+
+  .client-img-div .client-img {
+    float: unset;
+  }
+
+  .client-img {
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+  }
+
+  .reviews-sldier-item {
+    padding: 20px;
+  }
+
+  /* review  */
+  /* 6th sec  */
+  .ailored-tanning-content {
+    padding: 30px 20px;
+  }
+
+  /* 6th sec  */
+
+  /* footer  */
+  .foo__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .contact__infos>div {
+    justify-content: center;
+    margin: 20px 0 !important;
+  }
+
+  .site-footer .row:nth-of-type(2) {
+    flex-direction: column-reverse !important;
+    gap: 20px;
+    text-align: center !important;
+  }
+
+  .site-footer .row:nth-of-type(2) img {
+    display: block;
+    margin: 10px auto;
+  }
+
+  /* footer  */
+
+  /* Contact Page  */
+  .contact-us-wrapper {
+    padding: 20px !important;
+  }
+
+  /* Contact Page  */
+
+  /* apply page  */
+  .light__bg {
+    padding: 12px;
+  }
+
+  /* apply page  */
+  /* selection  */
+  .progress-bar {
+    height: 12px;
+  }
+
+  .progress:before {
+    height: 30px;
+    width: 30px;
+  }
+
+  /* selection  */
+
+  .package__tag {
+    right: 20px;
+  }
+}
+
+@media (max-width: 575px) {
+
+  .main-banner-heading h1,
+  .main-banner-heading h2,
+  .exp-div {
+    font-size: 45px !important;
+  }
+
+  /* 3rd sec  */
+  .light-bg-div-content-text h2 {
+    font-size: 30px;
+  }
+
+  /* 3rd sec  */
+
+  .radiant-tans-img img,
+  .tailored-tanning-img img {
+    right: 0px;
+    width: 50%;
+    display: none;
+  }
+
+  .tailored-tanning-text,
+  .radiant-tans-text {
+    width: 100%;
+  }
+
+  /* form control */
+  .form-control {
+    padding: 12px 16px;
+  }
+
+  /* form control */
+
+  /* profile  */
+  .profile__img {
+    width: 130px;
+    height: 130px;
+  }
+
+  /* profile  */
+}
+
+@media (min-width: 1399px) {
+  video.banner__vid-bg {
+    width: 190%;
+  }
+}
