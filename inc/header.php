@@ -28,7 +28,7 @@
                 <div class="desktop-nav">
                     <a href="index.php" class="navLinks">Home</a>
                     <a href="about.php" class="navLinks">About</a>
-                    <a href="service.php" class="navLinks">Services</a>
+                    <a href="shop.php" class="navLinks">Shop</a>
                     <a href="contact.php" class="navLinks">Contact Us</a>
 
                     <div class="cart-container" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
@@ -43,7 +43,7 @@
                 <div class="mobile-nav">
                     <a href="#" class="active">Home</a>
                     <a href="#">About</a>
-                    <a href="#">Services</a>
+                    <a href="#">Shop</a>
                     <a href="#">Contact</a>
                 </div>
             </div>

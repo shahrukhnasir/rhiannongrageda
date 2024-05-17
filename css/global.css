@@ -612,7 +612,13 @@ ul {
 .sec__black_font {
   font-family: var(--primary-black-font);
 }
-
+.primary_font_bold{
+  font-family: var(--Gruppo);
+  font-weight: 900;
+}
+.primary_font{
+  font-family: var(--Gruppo);
+}
 /* Font Sizes Here */
 .level-1 {
   font-size: 61px;
@@ -686,7 +692,10 @@ ul {
   }
 
   .level-5 {
-    font-size: 25px;
+    font-size: 20px;
+  }
+  .level-6 {
+    font-size: 20px;
   }
 }
 
@@ -708,7 +717,10 @@ ul {
   }
 
   .level-5 {
-    font-size: 20px;
+    font-size: 15px;
+  }
+  .level-6 {
+    font-size: 18px;
   }
 }
 
@@ -734,7 +746,7 @@ ul {
   }
 
   .level-6 {
-    font-size: 16px;
+    font-size: 15px;
   }
 
   p,
@@ -761,7 +773,7 @@ ul {
   }
 
   .level-5 {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 
@@ -783,7 +795,7 @@ ul {
   }
 
   .level-5 {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
