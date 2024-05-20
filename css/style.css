@@ -335,6 +335,23 @@
 /* ================//////////////////Sign up/////////////////=============== */
 
 
+/* ================/////////////////// Product Details /////////////////=============== */
+.fa-star{
+  color: var(--primary-color);
+}
+.fa-star-o{
+  color: var(--primary-color);
+}
+#cart_count{
+  width: 50px;
+  height: 50px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* ================/////////////////// Product Details /////////////////=============== */
+
+
 
 
 
@@ -706,7 +723,11 @@
 
 /* Footer */
 .foo__list a{
-  color: white;
+  color: var(--light-gray);
+  letter-spacing: 1px;
+  transition: color 0.3s;
+  font-family: var(--primary-regular-font);
+  font-size: 16px;
 }
 .foo__list a:hover{
   color: var(--primary-color);
@@ -715,11 +736,8 @@
 .site-footer {
   background-color: #0C0C0C;
   background-image: url("../img/hero_bg.jpg");
-  /* background-position: -44% 91%; */
   background-repeat: no-repeat;
-  /* background-size: 62% auto;
-  padding: 50px 0px 50px 0px; */
-  height: 300px;
+  height: 250px;
 }
 
 .footer_logo img {

@@ -15,7 +15,7 @@
 <section>
     <div class="container p-5">
         <div class="row py-3">
-            <div class="col-lg-4">
+        <div class="col-lg-4">
                 <div class="card bg-light border-0" style="width: 22rem;">
                     <img class="card-img-top" src="img/product.webp" alt="Card image cap">
                     <div class="card-body">
@@ -25,13 +25,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
 
 
 
-                            </button>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -47,10 +49,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
-                            </button>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
+
+
+
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -68,10 +75,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
-                            </button>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
+
+
+
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -81,7 +93,7 @@
         </div>
 
         <div class="row py-3" >
-            <div class="col-lg-4">
+        <div class="col-lg-4">
                 <div class="card bg-light border-0" style="width: 22rem;">
                     <img class="card-img-top" src="img/product.webp" alt="Card image cap">
                     <div class="card-body">
@@ -91,13 +103,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
 
 
 
-                            </button>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -113,16 +127,19 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
-                            </button>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
+
+
+
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
 
             <div class="col-lg-4">
                 <div class="card bg-light border-0" style="width: 22rem;">
@@ -134,10 +151,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
-                            </button>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
+
+
+
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -148,7 +170,7 @@
 
 
         <div class="row py-3">
-            <div class="col-lg-4">
+        <div class="col-lg-4">
                 <div class="card bg-light border-0" style="width: 22rem;">
                     <img class="card-img-top" src="img/product.webp" alt="Card image cap">
                     <div class="card-body">
@@ -158,13 +180,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
 
 
 
-                            </button>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -180,16 +204,19 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
-                            </button>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
+
+
+
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-
-
 
             <div class="col-lg-4">
                 <div class="card bg-light border-0" style="width: 22rem;">
@@ -201,10 +228,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
-                            </button>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
+
+
+
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>

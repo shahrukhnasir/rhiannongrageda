@@ -113,7 +113,7 @@ button:focus,
 button:focus-visible {
   box-shadow: none;
   outline: none;
-  background: none !important;
+  background: var(--primary-color) ;
 }
 
 .bg-grad:focus {
