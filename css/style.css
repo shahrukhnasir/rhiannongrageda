@@ -558,7 +558,26 @@
   left: 25%;
   text-align: center;
 }
+.titleDesign_contact {
+  width: 500px;
+  position: relative;
+  right: 10%;
+  text-align: center;
+}
 
+.titleDesign_contact p {
+  display: inline-block;
+  background: #FFC107;
+  color: #fff;
+  border: none;
+  padding: 10px 0px 10px 130px;
+  margin: 16px;
+  cursor: pointer;
+  width: 100%;
+  clip-path: polygon(40% 0%, 30% 100%, 90% 100%, 100% 0%, 0% 0%);
+  font-family: var(--primary-bold-font);
+  font-size: 24px;
+}
 
 
 .titleDesign p {

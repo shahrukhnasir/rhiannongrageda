@@ -363,7 +363,7 @@
             <div class="col-lg-6 offset-lg-6">
 
                 <div class="text-center py-lg-4">
-                    <div class="titleDesign">
+                    <div class="titleDesign_contact">
                         <p>Contact us </p>
                     </div>
                 </div>
