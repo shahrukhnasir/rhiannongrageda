@@ -13,19 +13,50 @@
             </div>
             <div class="col-lg-3">
                 <h1 class="level-5 sec__bold_font body-color">Navigation</h1>
-                <ul class="p-0">
-                    <li class="level-6 sec__regular_font light-gray py-1">Home</li>
-                    <li class="level-6 sec__regular_font light-gray py-1">About Us</li>
-                    <li class="level-6 sec__regular_font light-gray py-1">Shop</li>
-                    <li class="level-6 sec__regular_font light-gray py-1">Contact Us</li>
+                <ul class="p-0 foo__list">
+                    <li class="level-6 sec__regular_font light-gray py-1">
+                        <a href="index.php"> Home</a>
+
+                    </li>
+                    <li class="level-6 sec__regular_font light-gray py-1">
+                        <a href="about.php">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="level-6 sec__regular_font light-gray py-1">
+                        <a href="shop.php">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="level-6 sec__regular_font light-gray py-1">
+                        <a href="contact.php">
+                            Contact Us
+                        </a>
+                    </li>
                 </ul>
             </div>
             <div class="col-lg-3">
                 <h1 class="level-5 sec__bold_font body-color">Quick Links </h1>
-                <ul class="p-0">
-                    <li class="level-6 sec__regular_font light-gray py-1">Privacy Policy</li>
-                    <li class="level-6 sec__regular_font light-gray py-1">Terms & Conditions</li>
-                    <li class="level-6 sec__regular_font light-gray py-1">Terms of Service</li>
+                <ul class="p-0 foo__list">
+                    <li class="level-6 sec__regular_font light-gray py-1">
+                        <a href="privacy-policy.php">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li class="level-6 sec__regular_font light-gray py-1">
+                        <a href="term-condition.php">
+                            Terms & Conditions
+                        </a>
+
+
+                    </li>
+                    <li class="level-6 sec__regular_font light-gray py-1">
+                        <a href="term-service.php">
+                        Terms of Service
+                        </a>
+                        
+                    
+                    </li>
                 </ul>
             </div>
         </div>
@@ -39,7 +70,7 @@
 <section class="dark-bg-gary py-3 my-0">
     <div class="text-center">
         <p class="light-gray level-6 sec__med_font py-2 m-0">&copy; 2024 All Rights Reserved.
-</p>
+        </p>
     </div>
 </section>
 

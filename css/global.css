@@ -13,10 +13,10 @@
 }
 
 .form-control-1 {
-  border: 1px solid var(--border-color);
+  border: 1px solid black;
   font-size: 14px;
   color: var(--dark-color);
-  border-radius: 60px;
+  border-radius: 10px;
   padding: 9px 25px;
   display: block;
   width: 100%;
@@ -30,6 +30,29 @@
 .dark-mode .form-control-1 {
   background-color: transparent;
 }
+
+.form_select-1 {
+  background-color: #ffffff22;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding:12px 10px;
+  resize: none;
+  font-family: "jost-Regular";
+  font-size: 14px;
+  color: #000000 !important;
+}
+
+.form_select-1:focus,
+.form_select-1:focus-visible {
+  box-shadow: none;
+  outline: none;
+  border-color: #ececec;
+  background: #ffffff67 !important;
+  /* background: none !important; */
+  color: #000000 !important;
+}
+
+
 
 .form-control {
   background-color: #000;
@@ -633,11 +656,11 @@ ul {
 }
 
 .level-4 {
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .level-5 {
-  font-size: 35px;
+  font-size: 30px;
 }
 
 .level-7 {
@@ -680,15 +703,15 @@ ul {
   }
 
   .level-2 {
-    font-size: 45px;
-  }
-
-  .level-3 {
     font-size: 40px;
   }
 
-  .level-4 {
+  .level-3 {
     font-size: 35px;
+  }
+
+  .level-4 {
+    font-size: 30px;
   }
 
   .level-5 {

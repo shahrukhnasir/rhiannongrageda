@@ -192,13 +192,15 @@
                         </div>
                         <div class="d-flex justify-content-start">
 
-                            <button type="button" class="btn btn-primary" tabindex="0">
-                                Buy Now
-                                <i class="fa fa-shopping-cart"></i>
+                            <a href="product-details.php">
+                                <button type="button" class="btn btn-primary" tabindex="0">
+                                    Buy Now
+                                    <i class="fa fa-shopping-cart"></i>
 
 
 
-                            </button>
+                                </button>
+                            </a>
                         </div>
                     </div>
                 </div>
