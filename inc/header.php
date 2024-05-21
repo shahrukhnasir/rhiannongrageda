@@ -41,13 +41,14 @@
                 </div>
                 <div class="mobile-nav-icon">
                     <div class="menu-icon"></div>
-                    <div class="close-icon"></div>
+                    <div class="menu-icon"></div>
+                    <div class="menu-icon"></div>
                 </div>
                 <div class="mobile-nav">
-                    <a href="#" class="active">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Shop</a>
-                    <a href="#">Contact</a>
+                    <a href="index.php" class="navLinks">Home</a>
+                    <a href="about.php" class="navLinks">About</a>
+                    <a href="shop.php" class="navLinks">Shop</a>
+                    <a href="contact.php" class="navLinks">Contact Us</a>
                 </div>
             </div>
 

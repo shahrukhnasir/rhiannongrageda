@@ -10,9 +10,10 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-lg-8">
-            <div id="table_cart_list">
+            <div class="table_cart_list">
+            <div class="table-responsive " id="table_cart_list">
 
-                <table class="table table-responsive table-sm">
+                <table class="table  table-sm">
                     <thead class="thead-light">
                         <tr>
                             <th class="table_head">Product</th>
@@ -64,13 +65,29 @@
                         </tr>
                     </tbody>
 
+                       <tbody>
+                        <!-- Example row -->
+                        <tr>
+                            <td class="table_product_image"><img src="./img/product.webp" alt="Product Image" class="img-fluid" style="max-width: 100px;"></td>
+                            <td class="table_data"> Product Name</td>
+                            <td class="table_data">$10.00</td>
+                            <td class="table_data">
+                                <input type="number" class="table_qty" value="1" min="1">
+                            </td>
+                            <td class="table_data">$10.00</td>
+                            <td class="table_data px-4">
+                                <button class="border-0 bg-light">
+
+                                    <i class="fa fa-close"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
-                <div class="col-lg-4">
-                    <button class="btn btn-primary">Update Cart</button>
-
-
-                </div>
-
+            </div>
+            <div class="col-lg-4">
+                <button class="btn btn-primary">Update Cart</button>
+            </div>
             </div>
         </div>
         <div class="col-lg-4">
