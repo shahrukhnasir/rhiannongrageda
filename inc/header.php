@@ -90,7 +90,7 @@
                     <a href="cart.php" class="btn btn-primary">View Cart</a>
                 </div>
                 <div class="col-lg-6">
-                    <a href="checkout.php" class="btn  btn-primary dark-bg">Check Out</a>
+                    <a href="checkout.php" class="btn  btn-primary">Check Out</a>
                 </div>
             </div>
 

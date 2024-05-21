@@ -69,25 +69,32 @@
 
 
   // counter script
-  $(".counter").each(function () {
-  var $this = $(this),
-    countTo = $this.attr("data-countto");
-  countDuration = parseInt($this.attr("data-duration"));
-  $({ counter: $this.text() }).animate(
-    {
+  $(".counter").each(function() {
+    var $this = $(this),
+      countTo = $this.attr("data-countto");
+    countDuration = parseInt($this.attr("data-duration"));
+    $({
+      counter: $this.text()
+    }).animate({
       counter: countTo
-    },
-    {
+    }, {
       duration: countDuration,
       easing: "linear",
-      step: function () {
+      step: function() {
         $this.text(Math.floor(this.counter));
       },
-      complete: function () {
+      complete: function() {
         $this.text(this.counter);
       }
-    }
-  );
-});
+    });
+  });
 
+ function handleToggle() {
+    const couponSection = document.getElementById("coupon-section");
+    if (couponSection.style.display === "none" || couponSection.style.display === "") {
+      couponSection.style.display = "block";
+    } else {
+      couponSection.style.display = "none";
+    }
+  }
 </script>

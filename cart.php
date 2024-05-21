@@ -10,71 +10,89 @@
 <div class="container mt-5">
     <div class="row">
         <div class="col-lg-8">
-            <table class="table table-responsive">
-                <thead class="thead-light">
-                    <tr>
-                        <th>Product</th>
-                        <th>Prodcut Name</th>
-                        <th>Price</th>
-                        <th>Quantity</th>
-                        <th>Subtotal</th>
-                        <th>Action</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <!-- Example row -->
-                    <tr>
-                        <td><img src="./img/product.webp" alt="Product Image" class="img-fluid" style="max-width: 100px;"></td>
-                        <td>Product Name</td>
-                        <td>$10.00</td>
-                        <td>
-                            <input type="number" class="text-center" value="1" min="1">
-                        </td>
-                        <td>$10.00</td>
-                        <td>X</td>
-                    </tr>
-                    <!-- Add more rows as needed -->
-                </tbody>
+            <div id="table_cart_list">
 
-                <tbody>
-                    <!-- Example row -->
-                    <tr>
-                        <td><img src="./img/product.webp" alt="Product Image" class="img-fluid" style="max-width: 100px;"></td>
-                        <td>Product Name</td>
-                        <td>$10.00</td>
-                        <td>
-                            <input type="number" class="text-center" value="1" min="1">
-                        </td>
-                        <td>$10.00</td>
-                        <td>X</td>
-                    </tr>
-                    <!-- Add more rows as needed -->
-                </tbody>
+                <table class="table table-responsive table-sm">
+                    <thead class="thead-light">
+                        <tr>
+                            <th class="table_head">Product</th>
+                            <th class="table_head">Prodcut Name</th>
+                            <th class="table_head">Price</th>
+                            <th class="table_head">Quantity</th>
+                            <th class="table_head">Subtotal</th>
+                            <th class="table_head">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- Example row -->
+                        <tr>
+                            <td class="table_product_image"><img src="./img/product.webp" alt="Product Image" class="img-fluid" style="max-width: 100px;"></td>
+                            <td class="table_data"> Product Name</td>
+                            <td class="table_data">$10.00</td>
+                            <td class="table_data">
+                                <input type="number" class="table_qty" value="1" min="1">
+                            </td>
+                            <td class="table_data">$10.00</td>
+                            <td class="table_data px-4">
+                                <button class="border-0 bg-light">
+
+                                    <i class="fa fa-close"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
 
 
 
 
-            </table>    
-            <div class="col-lg-4">
-                <a href="#" class="btn btn-primary">Update Cart</a>
+                    <tbody>
+                        <!-- Example row -->
+                        <tr>
+                            <td class="table_product_image"><img src="./img/product.webp" alt="Product Image" class="img-fluid" style="max-width: 100px;"></td>
+                            <td class="table_data"> Product Name</td>
+                            <td class="table_data">$10.00</td>
+                            <td class="table_data">
+                                <input type="number" class="table_qty" value="1" min="1">
+                            </td>
+                            <td class="table_data">$10.00</td>
+                            <td class="table_data px-4">
+                                <button class="border-0 bg-light">
+
+                                    <i class="fa fa-close"></i>
+                                </button>
+                            </td>
+                        </tr>
+                    </tbody>
+
+                </table>
+                <div class="col-lg-4">
+                    <button class="btn btn-primary">Update Cart</button>
+
+
+                </div>
 
             </div>
         </div>
         <div class="col-lg-4">
-            <div class="card">
-                <div class="card-header">
-                    Cart Totals
+            <div class="card" id="cart_side_box">
+                <div class="card-header border-bottom-0">
+                    <h1 class="level-8 sec__bold_font primary-color">
+                        Cart Totals
+                    </h1>
                 </div>
                 <div class="card-body">
                     <div class="d-flex justify-content-between mb-2">
-                        <span>Subtotal:</span>
-                        <span>$10.00</span>
+                        <span class="level-8 sec__med_font">Subtotal:</span>
+                        <span class="level-8 sec__bold_font">$10.00</span>
                     </div>
                     <div class="d-flex justify-content-between mb-2">
-                        <span>Total:</span>
-                        <span>$10.00</span>
+                        <span class="level-8 sec__med_font">Total:</span>
+                        <span class="level-8 sec__bold_font">$10.00</span>
                     </div>
-                    <a href="#" class="btn btn-primary w-100 mt-3">Proceed to Checkout</a>
+                    <button class="btn btn-primary">
+                        <a href="checkout.php">Proceed to Checkout</a>
+                    </button>
+
                 </div>
             </div>
         </div>

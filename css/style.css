@@ -300,49 +300,55 @@
 
 /* ================//////////////////Sign up//////////////////=============== */
 .sign_up {
-    width: 370px;
-    margin: 0 auto;
-    background-color: #fff;
-    padding: 35px;
-    border-radius: 10px;
-    -webkit-box-shadow: 0 0 37.5px 14px rgba(2,8,53,.06);
-    box-shadow: 0 0 37.5px 14px rgba(2,8,53,.06);
+  width: 370px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 35px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 37.5px 14px rgba(2, 8, 53, .06);
+  box-shadow: 0 0 37.5px 14px rgba(2, 8, 53, .06);
 
 
 }
-.sign_in_link{
+
+.sign_in_link {
   color: #000000;
   font-family: var(--secondary-regular-font);
 
 }
+
 .sign_in_link:hover {
   color: #D44444;
 }
-#lostPasswrdText{
+
+#lostPasswrdText {
   font-size: 12px;
   padding: 10px 0px;
 }
-.reset_password{
+
+.reset_password {
   width: 500px;
   margin: 0 auto;
   background-color: #fff;
   padding: 35px;
   border-radius: 10px;
-  -webkit-box-shadow: 0 0 37.5px 14px rgba(2,8,53,.06);
-  box-shadow: 0 0 37.5px 14px rgba(2,8,53,.06);
+  -webkit-box-shadow: 0 0 37.5px 14px rgba(2, 8, 53, .06);
+  box-shadow: 0 0 37.5px 14px rgba(2, 8, 53, .06);
 }
 
 /* ================//////////////////Sign up/////////////////=============== */
 
 
 /* ================/////////////////// Product Details /////////////////=============== */
-.fa-star{
+.fa-star {
   color: var(--primary-color);
 }
-.fa-star-o{
+
+.fa-star-o {
   color: var(--primary-color);
 }
-#cart_count{
+
+#cart_count {
   width: 50px;
   height: 50px;
   margin-top: 10px;
@@ -352,416 +358,514 @@
 /* ================/////////////////// Product Details /////////////////=============== */
 
 
-
-
-
-
-
-
-/* ================//////////////////WHY CHOOSE US//////////////////=============== */
-
-.choose_card_img {
-  width: 100px;
-  margin: auto;
+/* ================/////////////////// Cart list'✌ /////////////////=============== */
+.table_head {
+  font-size: 14px;
+  font-family: var(--primary-bold-font);
+  color: var(--dark-color);
+  border-bottom: 0;
 }
 
-#choose_card {
-  border-radius: 10px;
-  background: linear-gradient(to top, #0c0c0c05, transparent);
-  padding: 40px 0px;
+.table_data {
+  font-size: 13px;
+  font-family: var(--primary-medium-font);
+  padding: 20px 0px;
+  position: relative;
+  top: 20px;
+}
+
+.table_qty {
+  font-size: 13px;
+  font-family: var(--primary-bold-font);
+  width: 40px;
+  text-align: center;
+  margin: 0px 10px;
+}
+
+#table_cart_list {
+  padding: 20px;
+  overflow-x: scroll;
+  border: 1px solid #000;
 
 }
 
-#choose_card:hover {
-  background: linear-gradient(to bottom, #0c0c0c06, transparent);
+.card-header {
+  background-color: white !important;
 }
 
-.choose_card_img img:hover {
-  scale: 0.9;
-
+#cart_side_box a {
+  color: white !important;
 }
 
-/* ================//////////////////WHY CHOOSE US//////////////////=============== */
+/* ================/////////////////// Cart list /////////////////=============== */
 
-@media only screen and (max-width: 768px) {
-  .desktop-nav {
-    display: none;
-  }
 
-  .mobile-nav-icon {
-    display: block;
-    cursor: pointer;
-  }
 
-  .mobile-nav.active {
-    display: block;
-  }
+/* ================///////////////////  check Out /////////////////=============== */
 
-  .menu-icon.active {
-    display: none;
-  }
-
-  .menu-icon.active+.close-icon {
-    display: block;
-  }
-
-  .menu-icon.active+.close-icon {
-    transform: rotate(45deg);
-  }
-
-  .menu-icon.active+.close-icon:before {
-    top: 0;
-    transform: rotate(-45deg);
-  }
-
-  .menu-icon.active+.close-icon:after {
-    top: 0;
-    transform: rotate(45deg);
-  }
+.checkout_label {
+  font-size: 14px;
+  color: #7b828b;
+  font-family: var(--primary-regular-font);
+  padding: 0px 0px 10px 0px;
 }
 
-
-
-/* Hero section */
-
-.main-banner {
-  background: linear-gradient(319deg, rgba(61, 61, 61, 1) 0%, rgba(88, 88, 88, 1) 12%, rgba(26, 26, 26, 1) 100%);
-  height: 670px;
-  background-image: url("../img/hero_bg.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
-  background-position: center;
-  background-size: cover;
+.checkout_label_card {
+  font-size: 13px;
+  color: #0c0c0c;
+  font-family: var(--primary-bold-font);
+  padding: 0px 0px 10px 0px;
 }
 
-/* .car_div{
+    .checkout_label span {
+      color: red;
+      font-family: var(--primary-bold-font);
+    }
+
+    .checkout_first_sec {
+      margin: 20px 0px;
+      padding: 30px;
+      border: 1px solid #69727d;
+    }
+
+    #toggle-btn {
+      color: #5bc0de;
+      font-size: 14px;
+      font-family: var(--primary-regular-font);
+      cursor: pointer;
+    }
+
+    .coupon-section {
+      font-size: 14px;
+      font-family: var(--primary-regular-font);
+    }
+
+    #coupon_code {
+      width: 100%;
+      padding: 10px 10px;
+      border: none !important;
+      height: 50px;
+      background-color: #F9FAFA;
+      margin: auto 0;
+    }
+
+    #coupon-section {
+      display: none;
+    }
+
+    /* ================///////////////////  check Out /////////////////=============== */
+
+
+
+
+
+
+    /* ================//////////////////WHY CHOOSE US//////////////////=============== */
+
+    .choose_card_img {
+      width: 100px;
+      margin: auto;
+    }
+
+    #choose_card {
+      border-radius: 10px;
+      background: linear-gradient(to top, #0c0c0c05, transparent);
+      padding: 40px 0px;
+
+    }
+
+    #choose_card:hover {
+      background: linear-gradient(to bottom, #0c0c0c06, transparent);
+    }
+
+    .choose_card_img img:hover {
+      scale: 0.9;
+
+    }
+
+    /* ================//////////////////WHY CHOOSE US//////////////////=============== */
+
+    @media only screen and (max-width: 768px) {
+      .desktop-nav {
+        display: none;
+      }
+
+      .mobile-nav-icon {
+        display: block;
+        cursor: pointer;
+      }
+
+      .mobile-nav.active {
+        display: block;
+      }
+
+      .menu-icon.active {
+        display: none;
+      }
+
+      .menu-icon.active+.close-icon {
+        display: block;
+      }
+
+      .menu-icon.active+.close-icon {
+        transform: rotate(45deg);
+      }
+
+      .menu-icon.active+.close-icon:before {
+        top: 0;
+        transform: rotate(-45deg);
+      }
+
+      .menu-icon.active+.close-icon:after {
+        top: 0;
+        transform: rotate(45deg);
+      }
+    }
+
+
+
+    /* Hero section */
+
+    .main-banner {
+      background: linear-gradient(319deg, rgba(61, 61, 61, 1) 0%, rgba(88, 88, 88, 1) 12%, rgba(26, 26, 26, 1) 100%);
+      height: 670px;
+      background-image: url("../img/hero_bg.jpg");
+      background-repeat: no-repeat;
+      width: 100%;
+      background-position: center;
+      background-size: cover;
+    }
+
+    /* .car_div{
 
 } */
 
 
-/* slider */
+    /* slider */
 
-.slick-dots li.slick-active button::after {
-  box-sizing: border-box;
-  content: "";
-  border: 2px solid #FFF;
-  border-radius: 100%;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all .3s ease;
-  box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.5), inset .1em .1em .2em rgba(0, 0, 0, 0.5);
-}
+    .slick-dots li.slick-active button::after {
+      box-sizing: border-box;
+      content: "";
+      border: 2px solid #FFF;
+      border-radius: 100%;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all .3s ease;
+      box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.5), inset .1em .1em .2em rgba(0, 0, 0, 0.5);
+    }
 
-.slick-dots li.slick-active button::before {
-  box-sizing: border-box;
-  content: "";
-  border: 2px solid var(--primary-color);
-  border-radius: 100%;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all .3s ease;
-  box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.5), inset .1em .1em .2em rgba(0, 0, 0, 0.5);
-  border-width: 6px;
-  width: 22px;
-  height: 22px;
-}
-
-
-.slick-dots li button:before {
-  box-sizing: border-box;
-  content: "";
-  border: 2px solid white;
-  border-radius: 100%;
-  background: white;
-  display: block;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: all .3s ease;
-  box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.5), inset .1em .1em .2em rgba(0, 0, 0, 0.5);
-  border-width: 6px;
-  width: 22px;
-  height: 22px;
-  opacity: 1;
-}
-
-.slick-dots {
-  position: absolute;
-  top: 60%;
-  display: block;
-  right: 38%;
-  width: 100%;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-align: center;
-}
-
-.slick-prev.slick-disabled:before,
-.slick-next.slick-disabled:before {
-  display: none;
-}
-
-.left_side {
-  position: relative;
-  top: 162px;
-  left: 100px;
-  z-index: 999;
-  width: 700px;
-}
-
-.slick-slide img {
-  display: block;
-  position: relative;
-  left: 35%;
-  top: -58px;
-  width: 880px;
-}
-
-.slick-slide #red {
-  display: block;
-  position: relative;
-  left: 35%;
-  top: -166px;
-  width: 880px;
-
-}
-
-/* slider */
-
-/* ind Parts For Your Vehicle */
-
-.find_part {
-  background: url("../img/white-painted-wall.jpg");
-  height: 150px;
-}
-
-.yellow_box {
-  box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.15);
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  background: var(--primary-color);
-  margin: -2.5em 1em -2.5em 0em;
-  --e-column-margin-right: 1em;
-  --e-column-margin-left: 0em;
-  padding: 30px 30px 30px 30px;
-  position: relative;
-  top: 30px;
+    .slick-dots li.slick-active button::before {
+      box-sizing: border-box;
+      content: "";
+      border: 2px solid var(--primary-color);
+      border-radius: 100%;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all .3s ease;
+      box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.5), inset .1em .1em .2em rgba(0, 0, 0, 0.5);
+      border-width: 6px;
+      width: 22px;
+      height: 22px;
+    }
 
 
-}
+    .slick-dots li button:before {
+      box-sizing: border-box;
+      content: "";
+      border: 2px solid white;
+      border-radius: 100%;
+      background: white;
+      display: block;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      transition: all .3s ease;
+      box-shadow: .1em .1em .2em rgba(0, 0, 0, 0.5), inset .1em .1em .2em rgba(0, 0, 0, 0.5);
+      border-width: 6px;
+      width: 22px;
+      height: 22px;
+      opacity: 1;
+    }
 
-.crossButton button {
-  display: inline-block;
-  background: #FFC107;
-  color: #fff;
-  border: none;
-  padding: 20px 40px;
-  margin: 16px;
-  cursor: pointer;
-  width: 100%;
-  clip-path: polygon(40% 0%, 18% 100%, 100% 100%, 100% 0%, 40% 0%);
-}
+    .slick-dots {
+      position: absolute;
+      top: 60%;
+      display: block;
+      right: 38%;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-align: center;
+    }
 
-.titleDesign {
-  width: 500px;
-  position: relative;
-  left: 25%;
-  text-align: center;
-}
-.titleDesign_contact {
-  width: 500px;
-  position: relative;
-  right: 10%;
-  text-align: center;
-}
+    .slick-prev.slick-disabled:before,
+    .slick-next.slick-disabled:before {
+      display: none;
+    }
 
-.titleDesign_contact p {
-  display: inline-block;
-  background: #FFC107;
-  color: #fff;
-  border: none;
-  padding: 10px 0px 10px 130px;
-  margin: 16px;
-  cursor: pointer;
-  width: 100%;
-  clip-path: polygon(40% 0%, 30% 100%, 90% 100%, 100% 0%, 0% 0%);
-  font-family: var(--primary-bold-font);
-  font-size: 24px;
-}
+    .left_side {
+      position: relative;
+      top: 162px;
+      left: 100px;
+      z-index: 999;
+      width: 700px;
+    }
 
+    .slick-slide img {
+      display: block;
+      position: relative;
+      left: 35%;
+      top: -58px;
+      width: 880px;
+    }
 
-.titleDesign p {
-  display: inline-block;
-  background: #FFC107;
-  color: #fff;
-  border: none;
-  padding: 10px 0px 10px 130px;
-  margin: 16px;
-  cursor: pointer;
-  width: 100%;
-  clip-path: polygon(40% 0%, 30% 100%, 90% 100%, 100% 0%, 0% 0%);
-  font-family: var(--primary-bold-font);
-  font-size: 24px;
-}
+    .slick-slide #red {
+      display: block;
+      position: relative;
+      left: 35%;
+      top: -166px;
+      width: 880px;
 
-.about_text {
-  padding: 0px 30px;
-}
+    }
 
-.about_desciption {
-  padding: 0px 30px;
-}
+    /* slider */
 
-.about_desciption p {
-  font-size: 18px;
-  color: #69727d;
-}
+    /* ind Parts For Your Vehicle */
 
-.yellow_box p {
-  font-size: 30px;
-  color: white;
-  font-family: var(--primary-bold-font);
-}
+    .find_part {
+      background: url("../img/white-painted-wall.jpg");
+      height: 150px;
+    }
 
-.select_option {
-  position: relative;
-  z-index: 999;
-  padding: 32px 0px 10px 0px
-}
-
-.form-select {
-  font-family: var(--primary-regular-font);
-  width: 100%;
-  max-width: 100%;
-  border: 1px solid #69727d;
-  background-color: transparent;
-  color: #1f2124;
-  vertical-align: middle;
-  flex-grow: 1;
-  border-radius: 10px;
-
-}
-
-.input_field {
-  padding: 8px 12px;
-  font-family: var(--primary-regular-font);
-  width: 100%;
-  max-width: 100%;
-  border: 1px solid #69727d;
-  background-color: transparent;
-  color: #1f2124;
-  vertical-align: middle;
-  flex-grow: 1;
-  border-radius: 10px;
-  font-size: 16px;
-
-}
-
-.input_field:focus {
-  outline: hidden;
-
-}
-
-.input-group {
-  position: relative;
-  z-index: 999;
-}
-
-.reviewCard {
-  background-image: url("../img/fram.png");
-  margin: 0% 0% 0% 0%;
-  padding: 90px 60px 50px 60px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  width: 400px;
-  margin: auto;
-}
-
-.review_card_body {
-  color: var(--primary-bold-font);
-  font-size: 15px;
-  font-weight: 300;
-  font-style: italic;
-  line-height: 1.4em;
-  letter-spacing: 1.2px;
-}
-
-.rounded {
-  border-radius: 100px;
-  height: 70px;
-  width: 70px;
-}
+    .yellow_box {
+      box-shadow: 0px 10px 40px -5px rgba(0, 0, 0, 0.15);
+      transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+      background: var(--primary-color);
+      margin: -2.5em 1em -2.5em 0em;
+      --e-column-margin-right: 1em;
+      --e-column-margin-left: 0em;
+      padding: 30px 30px 30px 30px;
+      position: relative;
+      top: 30px;
 
 
-.contact_us {
-  background-color: #0C0C0C;
-  background-image: url("../img/black_car.jpg");
-  background-position: -44% 91%;
-  background-repeat: no-repeat;
-  background-size: 62% auto;
-  height: 460px;
-}
+    }
 
-.haveAQuestion {
-  display: flex;
-  background-color: var(--primary-color);
-  height: 150px;
-  align-items: stretch;
-  justify-content: space-evenly;
-  flex-direction: column;
-}
+    .crossButton button {
+      display: inline-block;
+      background: #FFC107;
+      color: #fff;
+      border: none;
+      padding: 20px 40px;
+      margin: 16px;
+      cursor: pointer;
+      width: 100%;
+      clip-path: polygon(40% 0%, 18% 100%, 100% 100%, 100% 0%, 40% 0%);
+    }
 
-/* ind Parts For Your Vehicle */
+    .titleDesign {
+      width: 500px;
+      position: relative;
+      left: 25%;
+      text-align: center;
+    }
 
-/* Footer */
-.foo__list a{
-  color: var(--light-gray);
-  letter-spacing: 1px;
-  transition: color 0.3s;
-  font-family: var(--primary-regular-font);
-  font-size: 16px;
-}
-.foo__list a:hover{
-  color: var(--primary-color);
-}
+    .titleDesign_contact {
+      width: 500px;
+      position: relative;
+      right: 10%;
+      text-align: center;
+    }
 
-.site-footer {
-  background-color: #0C0C0C;
-  background-image: url("../img/hero_bg.jpg");
-  background-repeat: no-repeat;
-  height: 250px;
-}
-
-.footer_logo img {
-  width: 300px;
-}
-
-/* Footer */
+    .titleDesign_contact p {
+      display: inline-block;
+      background: #FFC107;
+      color: #fff;
+      border: none;
+      padding: 10px 0px 10px 130px;
+      margin: 16px;
+      cursor: pointer;
+      width: 100%;
+      clip-path: polygon(40% 0%, 30% 100%, 90% 100%, 100% 0%, 0% 0%);
+      font-family: var(--primary-bold-font);
+      font-size: 24px;
+    }
 
 
-/* Header */
+    .titleDesign p {
+      display: inline-block;
+      background: #FFC107;
+      color: #fff;
+      border: none;
+      padding: 10px 0px 10px 130px;
+      margin: 16px;
+      cursor: pointer;
+      width: 100%;
+      clip-path: polygon(40% 0%, 30% 100%, 90% 100%, 100% 0%, 0% 0%);
+      font-family: var(--primary-bold-font);
+      font-size: 24px;
+    }
+
+    .about_text {
+      padding: 0px 30px;
+    }
+
+    .about_desciption {
+      padding: 0px 30px;
+    }
+
+    .about_desciption p {
+      font-size: 18px;
+      color: #69727d;
+    }
+
+    .yellow_box p {
+      font-size: 30px;
+      color: white;
+      font-family: var(--primary-bold-font);
+    }
+
+    .select_option {
+      position: relative;
+      z-index: 999;
+      padding: 32px 0px 10px 0px
+    }
+
+    .form-select {
+      font-family: var(--primary-regular-font);
+      width: 100%;
+      max-width: 100%;
+      border: 1px solid #69727d;
+      background-color: transparent;
+      color: #1f2124;
+      vertical-align: middle;
+      flex-grow: 1;
+      border-radius: 10px;
+
+    }
+
+    .input_field {
+      padding: 8px 12px;
+      font-family: var(--primary-regular-font);
+      width: 100%;
+      max-width: 100%;
+      border: 1px solid #69727d;
+      background-color: transparent;
+      color: #1f2124;
+      vertical-align: middle;
+      flex-grow: 1;
+      border-radius: 10px;
+      font-size: 16px;
+
+    }
+
+    .input_field:focus {
+      outline: hidden;
+
+    }
+
+    .input-group {
+      position: relative;
+      z-index: 999;
+    }
+
+    .reviewCard {
+      background-image: url("../img/fram.png");
+      margin: 0% 0% 0% 0%;
+      padding: 90px 60px 50px 60px;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 400px;
+      margin: auto;
+    }
+
+    .review_card_body {
+      color: var(--primary-bold-font);
+      font-size: 15px;
+      font-weight: 300;
+      font-style: italic;
+      line-height: 1.4em;
+      letter-spacing: 1.2px;
+    }
+
+    .rounded {
+      border-radius: 100px;
+      height: 70px;
+      width: 70px;
+    }
 
 
-/* Header */
+    .contact_us {
+      background-color: #0C0C0C;
+      background-image: url("../img/black_car.jpg");
+      background-position: -44% 91%;
+      background-repeat: no-repeat;
+      background-size: 62% auto;
+      height: 460px;
+    }
 
-@media (min-width:200px) and (max-width:992px) {
-  .titleDesign {
-    width: 300px;
-    position: relative;
-    left: 0%;
-    text-align: center;
-  }
+    .haveAQuestion {
+      display: flex;
+      background-color: var(--primary-color);
+      height: 150px;
+      align-items: stretch;
+      justify-content: space-evenly;
+      flex-direction: column;
+    }
 
-  .titleDesign p {
-    font-size: 14px;
-    padding: 10px 30px !important;
-  }
-}
+    /* ind Parts For Your Vehicle */
+
+    /* Footer */
+    .foo__list a {
+      color: var(--light-gray);
+      letter-spacing: 1px;
+      transition: color 0.3s;
+      font-family: var(--primary-regular-font);
+      font-size: 16px;
+    }
+
+    .foo__list a:hover {
+      color: var(--primary-color);
+    }
+
+    .site-footer {
+      background-color: #0C0C0C;
+      background-image: url("../img/hero_bg.jpg");
+      background-repeat: no-repeat;
+      height: 250px;
+    }
+
+    .footer_logo img {
+      width: 300px;
+    }
+
+    /* Footer */
+
+
+    /* Header */
+
+
+    /* Header */
+
+    @media (min-width:200px) and (max-width:992px) {
+      .titleDesign {
+        width: 300px;
+        position: relative;
+        left: 0%;
+        text-align: center;
+      }
+
+      .titleDesign p {
+        font-size: 14px;
+        padding: 10px 30px !important;
+      }
+    }

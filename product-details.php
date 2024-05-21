@@ -58,9 +58,12 @@
 
                     <div class="d-flex">
                         <input type="number" name="" id="cart_count" value="1" />
-                        <button type="button" class="btn btn-primary" tabindex="0">
-                            Add to cart
-                        </button>
+                        <a href="cart">
+
+                            <button type="button" class="btn btn-primary" tabindex="0">
+                                Add to cart
+                            </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -87,7 +90,7 @@
 
                             <p class="dark-color level-8 sec__med_font">
                                 <span>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
                                 </span>
                                 <span>
                                     <i class="fa fa-star-o" aria-hidden="true"></i>
@@ -127,7 +130,7 @@
 
                             <p class="dark-color level-8 sec__med_font">
                                 <span>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
                                 </span>
                                 <span>
                                     <i class="fa fa-star-o" aria-hidden="true"></i>
@@ -168,7 +171,7 @@
 
                             <p class="dark-color level-8 sec__med_font">
                                 <span>
-                                <i class="fa fa-star-o" aria-hidden="true"></i>
+                                    <i class="fa fa-star-o" aria-hidden="true"></i>
                                 </span>
                                 <span>
                                     <i class="fa fa-star-o" aria-hidden="true"></i>

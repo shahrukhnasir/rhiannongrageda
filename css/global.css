@@ -21,6 +21,29 @@
   display: block;
   width: 100%;
 }
+.form_select_2{
+  background-color: #F9FAFA;
+  border: none;
+  width: 100%;
+  padding: 12px 10px;
+  resize: none;
+  font-size: 14px;
+  color: var(--dark-color);
+  background-color: #F9FAFA;
+}
+.form-control-2 {
+  border: none;
+  font-size: 14px;
+  color: var(--dark-color);
+  padding: 9px 25px;
+  display: block;
+  width: 100%;
+  background-color: #F9FAFA;
+}
+.form-control-2 :focus,
+.form-control-2 :focus-visible {
+  outline:none !important;
+}
 
 .form-control-1:focus,
 .form-control-1:focus-visible {
@@ -35,7 +58,7 @@
   background-color: #ffffff22;
   border: 1px solid black;
   border-radius: 10px;
-  padding:12px 10px;
+  padding: 12px 10px;
   resize: none;
   font-family: "jost-Regular";
   font-size: 14px;
@@ -58,7 +81,7 @@
   background-color: #000;
   border: 1px solid #4a3c57;
   border-radius: 10px;
-  padding:12px 10px;
+  padding: 12px 10px;
   resize: none;
   font-family: "jost-Regular";
   font-size: 14px;
@@ -70,7 +93,7 @@
   background-color: #ffffff22;
   border: 1px solid #4a3c57;
   border-radius: 10px;
-  padding:12px 10px;
+  padding: 12px 10px;
   resize: none;
   font-family: "jost-Regular";
   font-size: 14px;
@@ -86,6 +109,7 @@
   /* background: none !important; */
   color: #fff !important;
 }
+
 select.form-select.level-8.sec__regular_font.form_select option {
   color: #fff;
   background: #0c0c0c;
@@ -113,7 +137,7 @@ button:focus,
 button:focus-visible {
   box-shadow: none;
   outline: none;
-  background: var(--primary-color) ;
+  background: var(--primary-color);
 }
 
 .bg-grad:focus {
@@ -306,7 +330,7 @@ body::-webkit-scrollbar {
 /* Neccesary Css Here */
 * {
   transition: 0.6s all;
-  
+
 }
 
 .dark-mode .light-image {
@@ -635,13 +659,16 @@ ul {
 .sec__black_font {
   font-family: var(--primary-black-font);
 }
-.primary_font_bold{
+
+.primary_font_bold {
   font-family: var(--Gruppo);
   font-weight: 900;
 }
-.primary_font{
+
+.primary_font {
   font-family: var(--Gruppo);
 }
+
 /* Font Sizes Here */
 .level-1 {
   font-size: 61px;
@@ -717,6 +744,7 @@ ul {
   .level-5 {
     font-size: 20px;
   }
+
   .level-6 {
     font-size: 20px;
   }
@@ -742,6 +770,7 @@ ul {
   .level-5 {
     font-size: 15px;
   }
+
   .level-6 {
     font-size: 18px;
   }
