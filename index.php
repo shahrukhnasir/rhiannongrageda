@@ -3,7 +3,7 @@
 <?php include 'inc/app.php'; ?>
 <!-- Hero Section -->
 <section class="main-banner">
-    <div class=" py-5">
+    <div class=" py-lg-5 p-0">
         <div class="slider">
             <div>
                 <div class="row align-items-center">
@@ -80,7 +80,7 @@
 
             <div class="col-lg-8">
                 <div class="row select_option">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-2">
 
                         <select class="form-select">
                             <option selected>Make</option>
@@ -90,7 +90,7 @@
                             <option value="3">Volkswagen</option>
                         </select>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-2">
                         <select class="form-select" aria-label="Default select example">
                             <option selected>Model</option>
                             <option value="1">4 Wheel Drive</option>
@@ -102,7 +102,7 @@
                             <option value="8">Wagon</option>
                         </select>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 my-2">
                         <select class="form-select" aria-label="Default select example">
                             <option selected>Color</option>
                             <option value="1">Red</option>
@@ -116,19 +116,19 @@
 
 
                 <div class="row input-group">
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
 
                         <input type="text" placeholder="Phone Number" class=" input_field " />
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
                         <input type="email" placeholder="Email" class=" input_field" />
                     </div>
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
                         <input type="text" placeholder="Message" class=" input_field" />
 
                     </div>
 
-                    <div class="col-lg-3">
+                    <div class="col-lg-3 my-2">
                         <div class="">
                             <button type="button" class="btn btn_primary_secondary" tabindex="0">
                                 Buy Now
@@ -149,7 +149,7 @@
 
 <!-- About us  -->
 
-<section class="py-2">
+<section class="py-2 about_section">
     <div class="container py-5">
         <div class="row">
             <div class="col-lg-6">

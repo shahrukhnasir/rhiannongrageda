@@ -97,4 +97,7 @@
       couponSection.style.display = "none";
     }
   }
+
+
+
 </script>

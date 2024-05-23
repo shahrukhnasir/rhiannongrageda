@@ -39,16 +39,34 @@
                         <i class="fa fa-shopping-cart" aria-hidden="true"></i>
                     </div>
                 </div>
-                <div class="mobile-nav-icon">
-                    <div class="menu-icon"></div>
-                    <div class="menu-icon"></div>
-                    <div class="menu-icon"></div>
-                </div>
-                <div class="mobile-nav">
-                    <a href="index.php" class="navLinks">Home</a>
-                    <a href="about.php" class="navLinks">About</a>
-                    <a href="shop.php" class="navLinks">Shop</a>
-                    <a href="contact.php" class="navLinks">Contact Us</a>
+                <div class="mobile__nav-wrapp">
+                    <div class="hamburger__wrapp">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="mobile__nav">
+                        <button class="close__nav border-0 outline-none bg-grad mb-3 ms-auto d-block">&times;</button>
+                        <!-- <div class="d-flex gap-3">
+                        <a href="my-profile.php" class="nav__actions">
+                            <img src="./img/account.png" alt="Sol Tanning">
+                        </a>
+                        <a href="coming-soon" class="nav__actions position-relative">
+                            <img src="./img/cart.png" alt="Sol Tanning">
+                            <span class="cart__count sec__regular_font position-absolute top-0">2</span>
+                        </a>
+                    </div> -->
+                        <ul class="m-0 p-0 mobile_nav_list">
+                            <li class="py-2 border-bottom"><a href="index.php" class="color__light sec__med_font position-relative px-2">Home</a></li>
+                            <li class="py-2 border-bottom"><a href="about.php" class="color__light sec__med_font position-relative px-2">About Us</a></li>
+                            <li class="py-2 border-bottom"><a href="shop.php" class="color__light sec__med_font position-relative px-2">Shop</a></li>
+                            <li class="py-2 border-bottom"><a href="contact.php" class="color__light sec__med_font position-relative px-2">Contac Us</a></li>
+
+                        </ul>
+
+                        <a href="sign-up" class="btn btn-sm btn-primary justify-content-between mt-3">SIGN UP</a>
+
+                    </div>
                 </div>
             </div>
 

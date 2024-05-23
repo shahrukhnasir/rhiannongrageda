@@ -175,6 +175,7 @@
 }
 
 /* ==================about=============== */
+
 .about_car_img {
   width: 500px;
   padding: 20px 0px;
@@ -892,7 +893,7 @@
   background-color: #0C0C0C;
   background-image: url("../img/hero_bg.jpg");
   background-repeat: no-repeat;
-  height: 250px;
+  height: 100%;
 }
 
 .footer_logo img {
@@ -902,6 +903,73 @@
 /* Footer */
 
 
+/* Mobiles Nav  */
+.mobile__nav {
+  position: fixed;
+  right: -110%;
+  top: 0;
+  height: 100vh;
+  /* background: linear-gradient(155deg, #000000, #000000); */
+  background: linear-gradient(319deg, rgba(61, 61, 61, 1) 0%, rgba(88, 88, 88, 1) 12%, rgba(26, 26, 26, 1) 100%);
+
+  z-index: 99999;
+  max-width: 280px;
+  width: 100%;
+  padding: 14px;
+  box-shadow: -4px 0 30px #ffffff52;
+}
+
+.hamburger__wrapp {
+  position: relative;
+  width: 50px;
+  height: 30px;
+  margin-left: auto;
+}
+
+.hamburger__wrapp span {
+  position: absolute;
+  display: block;
+  background: #fff;
+  max-width: 60px;
+  height: 4px;
+  border-radius: 30px;
+}
+
+.hamburger__wrapp span:nth-of-type(1) {
+  top: 0;
+  width: 100%;
+  right: 0;
+}
+
+.hamburger__wrapp span:nth-of-type(2) {
+  top: 50%;
+  transform: translateY(-50%);
+  width: 80%;
+  right: 0;
+}
+
+.hamburger__wrapp span:nth-of-type(3) {
+  bottom: 0;
+  width: 60%;
+  right: 0;
+}
+
+.mobile__nav-wrapp {
+  display: none;
+}
+.close__nav {
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.mobile_nav_list li {
+  border-color: #fff3 !important;
+}
+/* Mobiles Nav  */
 /* Header */
 
 
@@ -919,14 +987,18 @@
     font-size: 14px;
     padding: 10px 30px !important;
   }
+
+  .slick-slide img {
+    display: block;
+    position: relative;
+    left: 0%;
+    bottom: 130px;
+    width: 100%;
+  }
 }
 
-@media (min-width:300px )and (max-width:375px) {
-  
-}
-
-@media (min-width:375px )and (max-width:414px) {
-  .main-banner{
+@media (min-width:300px)and (max-width:375px) {
+  /* .main-banner{
     height: 350px;
     background-image: url("../img/hero_bg.jpg");
     background-repeat: no-repeat;
@@ -934,16 +1006,102 @@
     background-position: center;
     background-size: cover;
   }
-  
+  .left_side {
+    position: relative;
+    top: 50px;
+    left: 20px;
+    z-index: 999;
+    width: 600px;
 }
-@media (min-width:414px )and (max-width:430px) {}
+.slick-slide img {
+  display: block;
+  position: relative;
+  left: 0%;
+  bottom: 130px;
+  width: 100%;
+} */
+}
 
-@media (min-width:430px )and (max-width:576px) {
-  
+@media (min-width:375px)and (max-width:414px) {
+  .yellow_box{
+    position: unset !important;
+  }
+  .find_part {
+    height: 212px;
+    padding: 60px 0px;
 }
-@media (min-width: 576px) and (max-width:768px) {
-  
-}
-@media (min-width: 768px) and (max-width:992) {
+  .about_section{
+    margin: 120px 0px;
+    position: relative;
+    top: 160px;
+  }
+  .main-banner {
+    height: 330px;
+    background-image: url("../img/hero_bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+  }
 
+  .left_side {
+    position: relative;
+    top: 200px;
+    left: 20px;
+    z-index: 999;
+    width: 350px;
+  }
+
+  .slick-slide #red {
+    display: block;
+    position: relative;
+    left: 0%;
+    top: -85px;
+    width: 880px;
+  }
+
+  .slick-dots {
+    position: absolute;
+    top: 72%;
+    display: block;
+    left: 75%;
+    width: 100px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  .btn-primary {
+    margin: 10px;
+    padding: 7px 15px;
+    gap: 10px;
+    font-size: 14px;
+
+  }
+
+  .btn-primary span {
+    width: 25px;
+    height: 25px;
+  }
+
+  .titleDesign_contact {
+    width: 300px;
+    position: relative;
+    right: 10%;
+    text-align: center;
 }
+.select_option {
+  position: unset;
+  z-index: 999;
+  padding: 50px 0px 0px 0px;
+}
+}
+
+@media (min-width:414px)and (max-width:430px) {}
+
+@media (min-width:430px)and (max-width:576px) {}
+
+@media (min-width: 576px) and (max-width:768px) {}
+
+@media (min-width: 768px) and (max-width:992) {}
